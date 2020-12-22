@@ -1,4 +1,5 @@
 import React from 'react';
+
 class CartItem extends React.Component {
     constructor () {
         super();
@@ -17,6 +18,7 @@ class CartItem extends React.Component {
             }
         })
     }
+
     decreaseQuantity = () => {
         this.setState((prevState) => {
             return {
@@ -24,6 +26,9 @@ class CartItem extends React.Component {
             }
         })
     }
+
+
+
     render() {
         const {price, title, qty } = this.state;
         return (
