@@ -1,4 +1,5 @@
 import React from 'react';
+  
 const Navbar = (props) => {
     return (
          <div style={styles.nav}>
@@ -34,4 +35,5 @@ const styles = {
         top: -9,
     }
 };
+
 export default Navbar;
